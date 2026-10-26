@@ -3,65 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Muhammad Umar Gambo - 81431 -->
-    <title>Page 5 - Hyperlinks and Styling</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Page 5 - Working with Hyperlinks</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-
-<body class="bg-gray-100 text-gray-800 font-sans">
-    <header class="bg-purple-700 text-white p-6 text-center">
-        <h1 class="text-3xl font-bold mb-3">Page 5 - Working with Hyperlinks</h1>
-        <p class="mt-2">Learning about links and web navigation</p>
-    </header>
-
-    <nav class="bg-purple-900 text-white p-4 text-center">
-        <a href="../index.html" class="underline mx-3">Home</a>
-        <a href="page-1.html" class="underline mx-3">Page 1</a>
-        <a href="page-2.html" class="underline mx-3">Page 2</a>
-        <a href="page-3.html" class="underline mx-3">Page 3</a>
-        <a href="page-4.html" class="underline mx-3">Page 4</a>
-    </nav>
-
-    <main class="max-w-4xl mx-auto p-6">
-        <section class="bg-white p-6 mb-6 rounded-lg shadow">
-            <h2 class="text-2xl font-bold mb-4">Relative Hyperlinks</h2>
-            <p class="mb-4">Relative hyperlinks connect pages within the same website.</p>
-            <a href="page-4.html" class="text-purple-700 underline hover:text-purple-900">
-                Visit Page 4
-            </a>
-        </section>
-
-        <section class="bg-white p-6 mb-6 rounded-lg shadow">
-            <h2 class="text-2xl font-bold mb-4">External Hyperlinks</h2>
-            <p class="mb-4">External hyperlinks take visitors to other websites.</p>
-            <a href="https://www.w3.org/" target="_blank" rel="noopener noreferrer"
-               class="text-purple-700 underline hover:text-purple-900">
-                Visit the W3C website
-            </a>
-        </section>
-
-        <section class="bg-white p-6 mb-6 rounded-lg shadow">
-            <h2 class="text-2xl font-bold mb-4">Internal Hyperlinks</h2>
-            <p class="mb-4">Internal links can take visitors to a section on the same page.</p>
-            <a href="#contact" class="text-purple-700 underline hover:text-purple-900">
-                Go to Contact Information
-            </a>
-        </section>
-
-        <section id="contact" class="bg-white p-6 mb-6 rounded-lg shadow">
-            <h2 class="text-2xl font-bold mb-4">Contact Information</h2>
-            <p>This section demonstrates an internal hyperlink destination.</p>
-        </section>
-    </main>
-
-    <footer class="bg-gray-800 text-white text-center p-4">
-        <p>&copy; 2026 Muhammad Umar Gambo</p>
-    </footer>
+<body class="bg-gray-100 text-gray-800">
+<header class="bg-purple-700 p-6 text-center text-white">
+    <h1 class="text-3xl font-bold">Page 5 - Working with Hyperlinks</h1>
+    <p>Learning about links and web navigation</p>
+</header>
+<nav class="bg-purple-900 p-4 text-center text-white">
+    <a class="mx-3 underline" href="/FE-BSC209-Assignment/">Home</a>
+    <a class="mx-3 underline" href="page-1.html">Page 1</a>
+    <a class="mx-3 underline" href="page-2.html">Page 2</a>
+    <a class="mx-3 underline" href="page-3.html">Page 3</a>
+    <a class="mx-3 underline" href="page-4.html">Page 4</a>
+</nav>
+<main class="mx-auto max-w-4xl space-y-6 p-6">
+    <section class="rounded-lg bg-white p-6 shadow">
+        <h2 class="mb-3 text-2xl font-bold">Relative Hyperlinks</h2>
+        <p class="mb-4">Relative hyperlinks connect pages within the same website.</p>
+        <a class="text-purple-700 underline" href="page-4.html">Visit Page 4</a>
+    </section>
+    <section class="rounded-lg bg-white p-6 shadow">
+        <h2 class="mb-3 text-2xl font-bold">External Hyperlinks</h2>
+        <p class="mb-4">External hyperlinks take visitors to other websites.</p>
+        <a class="text-purple-700 underline" href="https://www.w3.org/" target="_blank" rel="noopener noreferrer">Visit the W3C website</a>
+    </section>
+</main>
+<footer class="bg-purple-900 p-4 text-center text-white">
+    &copy; 2026 Muhammad Umar Gambo
+</footer>
 </body>
 </html>
